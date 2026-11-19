@@ -1,4 +1,3 @@
-
 {
   "announcements": [
     {
@@ -8,6 +7,13 @@
       "description": "This is a sample announcement to test the LCRO website content management system.",
       "image": "",
       "published": true
+    },
+    {
+      "published": true,
+      "title": "LCRO Website Successfully Launched",
+      "date": "2026-11-19",
+      "category": "Office Advisory",
+      "description": "The Local Civil Registry Office of Magalang, Pampanga, is pleased to introduce its official website, providing convenient access to office announcements, services, and important information."
     }
   ]
 }
