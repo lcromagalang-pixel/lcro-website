@@ -1,7 +1,7 @@
 
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/lcro-website
+  repo: lcromagalang-pixel/lcro-website
   branch: main
 
 media_folder: "images/uploads"
