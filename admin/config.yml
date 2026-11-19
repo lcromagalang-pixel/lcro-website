@@ -1,0 +1,48 @@
+
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/lcro-website
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "announcements"
+    label: "Announcements"
+    files:
+      - label: "Office Announcements"
+        name: "office_announcements"
+        file: "content/announcements.json"
+        fields:
+          - label: "Announcements"
+            name: "announcements"
+            widget: "list"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+
+              - label: "Date"
+                name: "date"
+                widget: "datetime"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+
+              - label: "Category"
+                name: "category"
+                widget: "string"
+
+              - label: "Description"
+                name: "description"
+                widget: "text"
+
+              - label: "Announcement Image"
+                name: "image"
+                widget: "image"
+                required: false
+
+              - label: "Published"
+                name: "published"
+                widget: "boolean"
+                default: true
